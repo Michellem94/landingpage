@@ -1,0 +1,185 @@
+
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family: arial;
+}
+
+
+
+ul li:hover a { 
+  color: inherit;
+  color: grey;
+}
+
+       
+
+h1 {
+ font-family: 'arial';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 121px;
+  
+ display:flex;
+ justify-content: flex-end;
+
+
+
+ position: absolute;
+ top: 25%;
+left: 50%;
+transform: translate(25%, 25%);
+  
+}
+
+
+
+button {
+  background-color: #1E1E1E;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+
+  
+}
+.button4 {border-radius: 32px;
+  font-family: 'arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+
+}
+
+
+.button3 {
+  border-radius: 32px;
+  background-color: #A095C9;
+  font-family: 'arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  
+  display:flex;
+  justify-content: flex-end;
+
+}
+
+.buttons{ 
+  display:flex;
+  justify-content: flex-end;
+  
+}
+
+
+.heroimage{
+  display:flex;
+  justify-content: flex-start;
+  
+}
+
+.elementbox{
+   display:flex;
+   flex-wrap: nowrap ;
+  flex-direction: row;
+  align-items: flex-end;
+  
+
+
+  justify-content: space-evenly;
+;
+  
+  
+font-family: 'arial';
+font-style: normal;
+font-weight: 300px;
+font-size: 18px;
+line-height: 22px;
+
+
+
+ }
+
+
+
+.h2 {
+  color: rgb(95, 74, 74);
+  font-family: 'arial';
+  font-weight: 50;
+  font-size: 15px;
+  line-height: 42px;
+  
+  
+   display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: flex-end;
+  }
+
+
+.text1  {
+  color: rgb(95, 74, 74);
+  font-family: 'arial';
+  font-weight: 50;
+  font-size: 20px;
+  line-height: 42px;
+  
+  
+   display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: flex-end;
+
+
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(25%, 25%);
+}
+
+
+
+h3{
+  
+ font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+}
+
+
+
+.elementbox {
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.footer{
+  display: inline-block; padding:10px;
+  font-size:13px; font-family: arial;
+
+}
