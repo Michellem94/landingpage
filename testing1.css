@@ -179,7 +179,18 @@ line-height: 30px;
 
 
 .footer{
+  display: flex;
   display: inline-block; padding:10px;
   font-size:13px; font-family: arial;
 
+}
+
+.img footer{
+  max-width: 20%;
+  object-fit: scale-down;
+ }
+.logosabajo{
+  display: flex;
+  width: 20px;
+  height: 20px;
 }
